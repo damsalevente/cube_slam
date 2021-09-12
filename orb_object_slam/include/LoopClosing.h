@@ -27,6 +27,7 @@
 
 #include <thread>
 #include <mutex>
+#include <unistd.h>
 #include <vector>
 #include <list>
 #include <set>

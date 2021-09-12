@@ -30,6 +30,7 @@
 #include "Optimizer.h"
 #include "ORBmatcher.h"
 #include "ORBVocabulary.h"
+#include <unistd.h>
 
 #include <mutex>
 #include <thread>

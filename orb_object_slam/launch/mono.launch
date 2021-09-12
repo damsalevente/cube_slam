@@ -7,13 +7,13 @@
  	<remap from="/camera/image_raw" to ="/kitti/left/image_raw"/> 
  	# /kitti/left/image_raw   /camera/rgb/image_raw /camera/rgb/image_color  /mono/image_rect_color /kinect2/qhd/image_color_rect /camera/mono/image_raw
    </node>
-   <param name="enable_loop_closing" value="false" />  # false true
+   <param name="enable_loop_closing" value="true" />  # false true
    <param name="enable_viewer" value="true" />   <param name="enable_viewmap" value="true" />   <param name="enable_viewimage" value="true" />
    
    <param name="parallel_mapping" value="true" />  # if false, may reduce bag rate
    
    <rosparam file="$(find orb_object_slam)/launch/object_params/kitti.yaml" command="load"/>   # initial pose, folder name
-   <param name="base_data_folder" value="/home/shichao/ysc_space/dataset/processed_third/slam/kitti/kitti_odom/seq_07" />
+   <param name="base_data_folder" value="/mnt/e/Downlaod/seq_07-20210911T172801Z-001/" />
 
    <param name="whether_detect_object" value="true" />
    <param name="whether_read_offline_cuboidtxt" value="true" />  # for kitti, I read offline data.

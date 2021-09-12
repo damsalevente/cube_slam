@@ -8,6 +8,7 @@
 
 #include <opencv/cv.h>
 #include <opencv2/core/core.hpp>
+#include <numeric>
 
 #include "detect_3d_cuboid/detect_3d_cuboid.h"
 

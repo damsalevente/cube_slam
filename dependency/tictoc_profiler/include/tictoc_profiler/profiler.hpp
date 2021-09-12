@@ -19,7 +19,6 @@
 #include <vector>
 #include <string>
 #include <iostream>
-
 #include <boost/chrono.hpp>
 
 #include <ros/ros.h>
@@ -78,7 +77,6 @@ class Profiler {
 
  private:
   static bool enabled_;
-
   static ProfilerEntryMap entries_;
   static RunningMap running_;
 };

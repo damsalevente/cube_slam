@@ -37,6 +37,7 @@
 
 #include "tictoc_profiler/profiler.hpp"
 
+#define CV_LOAD_IMAGE_UNCHANGED cv::IMREAD_UNCHANGED
 namespace ORB_SLAM2
 {
 

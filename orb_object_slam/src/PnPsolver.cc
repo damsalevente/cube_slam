@@ -62,6 +62,8 @@
 
 using namespace std;
 
+//#define  CvMat cv::Mat
+
 namespace ORB_SLAM2
 {
 

@@ -47,6 +47,8 @@ using namespace Eigen;
 
 typedef pcl::PointCloud<pcl::PointXYZRGB> CloudXYZRGB;
 
+#define CV_LOAD_IMAGE_ANYDEPTH cv::IMREAD_ANYDEPTH
+
 
 // global variable
 std::string base_folder;
